@@ -163,7 +163,7 @@ function formataDataeHora(campo, evt) {
     //        xPos = xPos +2;
     MovimentaCursor(campo, xPos);
 }
-// Formata só números
+// Formata os números
 function formataInteiro(campo, evt) {
     //1234567890
     xPos = PosicaoCursor(campo);
@@ -191,7 +191,7 @@ function formataHora(campo, evt) {
     //        xPos = xPos + 1;
     MovimentaCursor(campo, xPos);
 }
-// limpa todos os caracteres especiais do campo solicitado
+// limpa os caracteres especiais do campo escolhido
 function filtraCampo(campo) {
     var s = "";
     var cp = "";
@@ -211,7 +211,7 @@ function filtraCampo(campo) {
     return s;
     //return campo.value.replace("/", "").replace("-", "").replace(".", "").replace(",", "")
 }
-// limpa todos caracteres que não são números
+// limpa os caracteres que não são números
 function filtraNumeros(campo) {
     var s = "";
     var cp = "";
